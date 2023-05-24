@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sudoku Script</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+</head>
+
+<body>
+    <div id="userDiv">
+        <img src="Image/Logo.png" id="Mainlogo">
+        <div id="user">
+            <input type="text" id="inputUser" placeholder="Entar username">
+        </div>
+        <div id="password">
+            <input type="password" id="inputPass" placeholder="Entar password">
+        </div>
+        <button id="logBtn" onmousedown="bleep.play()" class="button" role="button">Enter</button>
+        
+    </div>
+    <h1 id="create">Create By : Ziv Yahya, Elia saar, Dolev Nagar</h1>
+    <!-- <-- userName and passwors -->
+    <!-- level -->
+    <div id="levelDiv">
+        <h1>Select a level</h1>
+        <button id="lvl1" onmousedown="bleep2.play()" class="button">Level 1</button>
+        <button id="lvl2" onmousedown="bleep2.play()" class="button">Level 2</button>
+        <button id="lvl3" onmousedown="bleep2.play()" class="button">Level 3</button>
+    </div>
+    <!-- level -->
+    <!-- suduko -->
+    <div id="bordeGame">
+        <button id="Clear" onmousedown="bleep3.play()" class="clearButton">Clear Board</button>
+        <button id="check" class="clearButton">Check Board</button>
+    </div>
+    <script src='suduko.js'></script>
+</body>
+
+</html>
